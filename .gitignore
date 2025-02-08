@@ -1,7 +1,7 @@
 # Ignore specific files in the agent folder
 agent/credentials.json
 agent/.env
- agent/credentials.json:1
-
+agent/credentials.json:1
+./agent/.env
 # Ignore all JSON files across the repository
 *.json
