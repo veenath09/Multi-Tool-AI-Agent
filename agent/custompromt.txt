@@ -1,0 +1,9 @@
+The following context is available:
+{% if memory.entities.name %}Name: {{ memory.entities.name }}{% endif %}
+{% if memory.entities.goal %}Goal: {{ memory.entities.goal }}{% endif %}
+
+Conversation History:
+{{ history }}
+
+Human: {{ input }}
+AI:
